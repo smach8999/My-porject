@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <title>Stephanie Mach</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+       <meta name="description" content="Home">
+       <link rel="stylesheet" type="text/css" href="./dist/css/main.css">   
+    </head>
+
+    <body>
+        <main>
+          <header>
+                <span class="logo">My WebSite</span> 
+                  <a id ="toggleMenu">Menu</a> 
+                  <nav>
+                      <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                  
+                          <!-- <li><a href="resume.html">Resume</a></li> -->
+
+                          <nav>
+                          <li>
+                          <div class="dropdown"> 
+                            <button class="dropbtn">Resume</button> 
+                              <div class="dropdown-content">
+                              <ul>
+                              <li><a href="http://localhost/My-project.github.io/resume2.html">Front-End Developer</a></li>
+                              <br>
+                              <li><a href="http://localhost/My-project.github.io/resume1.html">PeopelSoft Application Developer</a></li>
+                              </ul>
+                             </div>
+                          </div>
+                          </li>
+                          </nav>
+                          </ul>
+                  </nav>
+          </header>
+       
+            <style>
+                body { background-image: url("https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+                 /* background-image: url("contact_image.jpg"); */
+                 background-repeat:no-repeat;
+                 background-size:cover;
+                }
+            </style>
+            
+            <h1>Hello</h1>
+           
+            <p>
+              <!-- <img
+              class="avatar"
+               src="file:///home/dev/Desktop/exercise/image/profile_pic.jpg"
+               alt="Stephanie Mach">
+              -->
+                After teen decades working on PS I've decided to take a new challenge to transition in to web mobile development.
+            </p>
+
+            <h2> About me</h2>
+             <p> Proven Senior PeopleSoft Application Analyst .Helping Companies Translate Their Business Goals to Reality. 
+               Creative Sr. Application Developer with over 16 years of experience including Implementation, Customization 
+               and create pages, reports, Security, Upgrade and Maintenance ofPeopleSoft FSCM. My greatest strengths are my 
+               creativity and results-driven focus on the design, development, production support, troubleshooting and delivery 
+               of IT solutions. I utilize my knowledge, skills and experience to perform quality work.
+              </p>
+        </main> 
+        <script>
+
+            var toggleMenu = document.getElementById('toggleMenu');
+            var nav = document.querySelector('nav');
+            toggleMenu.addEventListener(
+                  'click',
+                  function(){
+                    if(nav.style.display=='block'){
+                      nav.style.display='none';
+                    }else{
+                      nav.style.display='block';
+                    }
+                  }
+                );
+              </script>
+    </body>
+</html>

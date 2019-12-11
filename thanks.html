@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+       <title>Thank You</title>
+       <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Stephanie Mach Hello page">
+        <meta name="keywords" content="Stephanie Mach, welcome, thanks, contact">
+    </head>        
+    <body>
+    <main>
+    <header>
+            <span class="logo">My WebSite</span>
+                <a id="toggleMenu">Menu<a></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+    </header>
+    <style>
+        body { background-image: url("https://d31v04zdn5vmni.cloudfront.net/blog/wp-content/uploads/2014/11/understanding-media-queries-in-email.png");
+
+        /* background-image: src="./dist/css/image/profilepic.jpg" alt="My Avatar"> "); */
+        background-repeat:no-repeat;
+        background-size:cover;
+        }
+        </style>
+
+        <main>
+        <!-- <h1> Thanks !</h1> -->
+        <h1>Thank you for contacting me. I am looking forward to speaking with you.</h1>
+        </main>
+
+        <script>
+                var toggleMenu = document.getElementById('toggleMenu');
+                var nav = document.querySelector('nav');
+                toggleMenu.addEventListener(
+                  'click',
+                  function(){
+                    if(nav.style.display=='block'){
+                      nav.style.display='none';
+                    }else{
+                      nav.style.display='block';
+                    }
+                  }
+                );
+            </script>
+                       
+    </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Stephanie Mach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Stephanie Mach page"> 
+    <meta name="keywords" content="Stephanie Mach, welcome, resume, contact">
+    <link rel="stylesheet" type="text/css" href="./dist/css/main.css">  
+    <style>
+      body { background-image: url("https://cdn.pixabay.com/photo/2015/01/09/11/23/internet-594148__340.jpg");
+      /* background-image: url("contact_image.jpg"); */
+      background-repeat:no-repeat;
+      background-size:cover;
+      }
+      </style>
+
+  </head>
+
+
+     <body> 
+      <header>
+          <span class="logo">My Contact</span>
+          <a id="toggleMenu">Menu<a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
+            </ul>
+        </nav>
+      </header>
+
+      
+  
+    <main>
+
+        <h1>Contact Stephanie Mach </h1>
+
+
+        <form action="https://formspree.io/smach8999@yahoo.com" method="POST">
+ 
+            <div>
+                <input type="hidden" name="_subject" value="New submission!">
+            </div>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name">
+            </div>
+
+            <div >
+                <label for="email">Email</label>
+                <input type="text" name="_replyto">  
+            </div>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Send">
+            </div>
+          
+            <input type="hidden" name="_next" value="https://smach8999.github.io/thanks.html">
+            <input type="text" name="_gotcha" style="display:none">
+           
+            <h1 class="quickFade delayOne">Thank you for visiting me</h1>
+            <h2 class="quickFade delayTwo">Looking forward to chatting</h2>
+ 
+        </form>
+      </main> 
+
+      <script>
+          var toggleMenu = document.getElementById('toggleMenu');
+          var nav = document.querySelector('nav');
+          toggleMenu.addEventListener(
+            'click',
+            function(){
+              if(nav.style.display=='block'){
+                nav.style.display='none';
+              }else{
+                nav.style.display='block';
+              }
+            }
+          );
+      </script>
+
+    </body>
+</html>

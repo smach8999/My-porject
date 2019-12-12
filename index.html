@@ -8,65 +8,106 @@
        <link rel="stylesheet" type="text/css" href="./dist/css/main.css">   
     </head>
 
-    <body>
-        <main>
-          <header>
-                <span class="logo">My WebSite</span> 
-                  <a id ="toggleMenu">Menu</a> 
-                  <nav>
-                      <ul>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                  
-                          <!-- <li><a href="resume.html">Resume</a></li> -->
 
-                          <nav>
-                          <li>
-                          <div class="dropdown"> 
-                            <button class="dropbtn">Resume</button> 
-                              <div class="dropdown-content">
-                              <ul>
-                              <li><a href="http://localhost/My-project.github.io/resume2.html">Front-End Developer</a></li>
+    <body>
+      <main>
+        <header>
+              <span class="logo">My WebSite</span> 
+                <a id ="toggleMenu">Menu</a> 
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                
+                        <!-- <li><a href="resume.html">Resume</a></li> -->
+
+                        <nav>
+                        <li>
+                        <div class="dropdown"> 
+                          <button class="dropbtn">Resume</button> 
+                            <div class="dropdown-content">
+                            <ul>
+                              <li><a href="https://smach8999.github.io/My-project.github.io/resume1.html">Front-End Developer</a></li>
                               <br>
-                              <li><a href="http://localhost/My-project.github.io/resume1.html">PeopelSoft Application Developer</a></li>
-                              </ul>
-                             </div>
-                          </div>
-                          </li>
-                          </nav>
-                          </ul>
-                  </nav>
-          </header>
+                              <li><a href="https://smach8999.github.io/My-project.github.io/resume1.html">PeopelSoft Application Developer</a></li>
+                            </ul>
+                           </div>
+                        </div>
+                        </li>
+                        </nav>
+                    </ul>
+                </nav>
+        </header>
+
        
-            <style>
-                body { background-image: url("https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-                 /* background-image: url("contact_image.jpg"); */
+            <!-- <style>
+                body { background-image: url("dist/css/image/NMH-Holiday12.jpg");
                  background-repeat:no-repeat;
                  background-size:cover;
                 }
-            </style>
-            
-            <h1>Hello</h1>
-           
+            </style> -->
+
+          <section>  
+          <div class="main" id="section1">
+          <h1>Hello, I'm Stephanie Mach</h1>
+                
             <p>
               <!-- <img
               class="avatar"
                src="file:///home/dev/Desktop/exercise/image/profile_pic.jpg"
                alt="Stephanie Mach">
               -->
-                After teen decades working on PS I've decided to take a new challenge to transition in to web mobile development.
+                After ten decades working as PeopleSoft developer, I've decided to take on a new challenge to transition into Web development, 
+                using my skills of understanding users' requirements and translating them into technology initiatives.
             </p>
+            <a href="#section1">Click here to learn about me</a>
+            <img src="dist/css/image/NMH-Holiday12.jpg" style="width:auto" >
+            <br>          
+          </div>
+          <br><br><br><br><br><br>
 
-            <h2> About me</h2>
-             <p> Proven Senior PeopleSoft Application Analyst .Helping Companies Translate Their Business Goals to Reality. 
-               Creative Sr. Application Developer with over 16 years of experience including Implementation, Customization 
-               and create pages, reports, Security, Upgrade and Maintenance ofPeopleSoft FSCM. My greatest strengths are my 
-               creativity and results-driven focus on the design, development, production support, troubleshooting and delivery 
-               of IT solutions. I utilize my knowledge, skills and experience to perform quality work.
-              </p>
+          <article>
+          <div class="main" id="section2">
+            <h1><strong>About me</strong></h1>
+            <p> Proven Senior PeopleSoft Application Analyst at Northwestern Memorial Hospital. Helping companies translate their business goals to reality. 
+              Creative Sr. Application Developer with over 16 years of experience including implementation, customization 
+              creation of pages and reports, security, upgrade and maintenance of PeopleSoft FSCM. My greatest strengths are my 
+              creativity and results-driven focus on the design, development, production support, troubleshooting and delivery 
+              of IT solutions. I utilize my knowledge, skills and experience to perform quality work.
+             </p>
+           
+              <img src="dist/css/image/NMH-Holiday3.jpg" style="width:auto">      
+          
+              
+              <dl class="row" >
+              <dt class="col-sm-9" style="background-color:white">         
+              <div class="dropdown"> 
+              <button class="dropbtn">Resume</button> 
+              <div class="dropdown-content">
+                  <ul>
+                  <li><a href="https://smach8999.github.io/My-project.github.io/resume2.html">Front-End Developer</a></li>
+                       <br>
+                  <li><a href="https://smach8999.github.io/My-project.github.io/resume1.html">PeopelSoft Application Developer</a></li>
+                  </ul>
+              </div>
+              </div>       
+              </dt>
+              </dl>
+              <br><br><br><br><br>
+
+              <a href="#section1">Click here to back to the top</a>
+              <br>
+                                
+            <div>
+                <p>Team work - Holiday decroration competition at Northwestern Memorial Hospital.</p>
+              <img src="dist/css/image/NMH-Holiday5.jpg" style="width:auto" >     
+              <img src="dist/css/image/NMH-building a new chicago.jpg" style="width:auto" > 
+            </div>       
+        </article>
+        </section>
         </main> 
-        <script>
 
+        <script>
             var toggleMenu = document.getElementById('toggleMenu');
             var nav = document.querySelector('nav');
             toggleMenu.addEventListener(

@@ -445,7 +445,7 @@ section:last-child {
 }
 
 .dropdown-content {
-  display: none;
+  display: yes ;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -453,7 +453,7 @@ section:last-child {
   z-index: 1;
 }
 
-.dropdown-content a:hover {background-color: rgb(88, 6, 6);}
+.dropdown-content a:hover  {background-color: rgb(88, 6, 6);}
 
 .dropdown:hover .dropdown-content {display: block; background: #2e64b6;}
 
@@ -463,4 +463,18 @@ label {display:block; text-align: left;}
 
 #email {display:block; float:none}
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 600px;
+  background-color: white;
+}
+
+#section2 {
+
+  background-color: white;
+}
 /*# sourceMappingURL=main.css.map */
